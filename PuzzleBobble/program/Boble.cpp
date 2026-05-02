@@ -1,6 +1,5 @@
-#include "Main.h"
-#include "Game.h"
-#include "Float2.h"
+#include"Boble.h"
+
 
 void BobleInit()
 {
