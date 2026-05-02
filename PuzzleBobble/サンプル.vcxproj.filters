@@ -27,7 +27,7 @@
     <ClCompile Include="program\Result.cpp">
       <Filter>program</Filter>
     </ClCompile>
-    <ClCompile Include="Boble.cpp">
+    <ClCompile Include="program\Boble.cpp">
       <Filter>program</Filter>
     </ClCompile>
   </ItemGroup>
@@ -53,7 +53,7 @@
     <ClInclude Include="program\Result.h">
       <Filter>program</Filter>
     </ClInclude>
-    <ClInclude Include="Boble.h">
+    <ClInclude Include="program\Boble.h">
       <Filter>program</Filter>
     </ClInclude>
   </ItemGroup>

@@ -4,6 +4,7 @@
 #include "Title.h"	//	タイトル関係の関数を呼びたいので
 #include "Stage.h"	//	ステージ関係の関数を呼びたいので
 #include "Result.h"	//	リザルト（結果表示画面）関係の関数を呼びたいので
+#include "Boble.h"	//	ボブル関係の関数を呼びたいので
 
 int scene_num;		//	今どこのシーンにいるのかを見る用の変数
 int scene_next;		//	次のシーン番号を入れる用の変数
@@ -35,15 +36,15 @@ void GameUpdate()
 		//	シーン番号に合わせた初期化処理を呼ぶ
 		switch( scene_num ){
 		case SCENE_TITLE:
-			TitleInit();
+			
 			break;
 
 		case SCENE_STAGE:
-			StageInit();
+			BobleInit();
 			break;
 
 		case SCENE_RESULT:
-			ResultInit();
+			
 			break;
 		}
 	}
@@ -51,15 +52,15 @@ void GameUpdate()
 	//	今のシーン番号に合わせた更新処理を呼ぶ
 	switch( scene_num ){
 	case SCENE_TITLE:
-		TitleUpdate();
+		
 		break;
 
 	case SCENE_STAGE:
-		StageUpdate();
+		BobleUpdate();
 		break;
 
 	case SCENE_RESULT:
-		ResultUpdate();
+		
 		break;
 	}
 }
@@ -71,15 +72,15 @@ void GameRender()
 	//	今のシーン番号に合わせた描画処理を呼ぶ
 	switch( scene_num ){
 	case SCENE_TITLE:
-		TitleRender();
+		
 		break;
 
 	case SCENE_STAGE:
-		StageRender();
+		BobleRender();
 		break;
 
 	case SCENE_RESULT:
-		ResultRender();
+		
 		break;
 	}
 }
@@ -91,6 +92,7 @@ void GameExit()
 	TitleExit();
 	StageExit();
 	ResultExit();
+	BobleExit();
 
 	
 }

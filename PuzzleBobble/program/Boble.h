@@ -2,4 +2,4 @@
 void BobleInit();
 void BobleUpdate();
 void BobleRender();
-void SBobleExit();
+void BobleExit();
