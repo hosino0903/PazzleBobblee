@@ -8,8 +8,8 @@
 //	リザルト（結果表示）画面の処理
 //=================================================================================
 
-extern int result_image;	//	リザルト（結果表示）画面の背景画像
-extern int button_image;	//	ボタン画像
+ int result_image;	//	リザルト（結果表示）画面の背景画像
+ int button_image;	//	ボタン画像
 
 Float2 button_pos;		//	ボタン座標
 Float2 button_size;		//	ボタンの大きさ

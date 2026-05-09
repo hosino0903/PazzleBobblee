@@ -36,11 +36,11 @@ void GameUpdate()
 		//	シーン番号に合わせた初期化処理を呼ぶ
 		switch( scene_num ){
 		case SCENE_TITLE:
-			
+			TitleInit();
 			break;
 
 		case SCENE_STAGE:
-			BobleInit();
+			StageInit();
 			break;
 
 		case SCENE_RESULT:
@@ -52,11 +52,11 @@ void GameUpdate()
 	//	今のシーン番号に合わせた更新処理を呼ぶ
 	switch( scene_num ){
 	case SCENE_TITLE:
-		
+		TitleUpdate();
 		break;
 
 	case SCENE_STAGE:
-		BobleUpdate();
+		StageUpdate();
 		break;
 
 	case SCENE_RESULT:
@@ -72,11 +72,11 @@ void GameRender()
 	//	今のシーン番号に合わせた描画処理を呼ぶ
 	switch( scene_num ){
 	case SCENE_TITLE:
-		
+		TitleRender();
 		break;
 
 	case SCENE_STAGE:
-		BobleRender();
+		StageRender();
 		break;
 
 	case SCENE_RESULT:

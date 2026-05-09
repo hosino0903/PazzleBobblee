@@ -6,16 +6,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="program\Float2.cpp">
-      <Filter>program</Filter>
-    </ClCompile>
     <ClCompile Include="program\Game.cpp">
-      <Filter>program</Filter>
-    </ClCompile>
-    <ClCompile Include="program\Main.cpp">
-      <Filter>program</Filter>
-    </ClCompile>
-    <ClCompile Include="program\Hit.cpp">
       <Filter>program</Filter>
     </ClCompile>
     <ClCompile Include="program\Stage.cpp">
@@ -30,20 +21,17 @@
     <ClCompile Include="program\Boble.cpp">
       <Filter>program</Filter>
     </ClCompile>
+    <ClCompile Include="program\Float2.cpp">
+      <Filter>program</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Hit.cpp">
+      <Filter>program</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Main.cpp">
+      <Filter>program</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="program\Float2.h">
-      <Filter>program</Filter>
-    </ClInclude>
-    <ClInclude Include="program\Game.h">
-      <Filter>program</Filter>
-    </ClInclude>
-    <ClInclude Include="program\Main.h">
-      <Filter>program</Filter>
-    </ClInclude>
-    <ClInclude Include="program\Hit.h">
-      <Filter>program</Filter>
-    </ClInclude>
     <ClInclude Include="program\Stage.h">
       <Filter>program</Filter>
     </ClInclude>
@@ -54,6 +42,18 @@
       <Filter>program</Filter>
     </ClInclude>
     <ClInclude Include="program\Boble.h">
+      <Filter>program</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Game.h">
+      <Filter>program</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Float2.h">
+      <Filter>program</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Hit.h">
+      <Filter>program</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Main.h">
       <Filter>program</Filter>
     </ClInclude>
   </ItemGroup>
