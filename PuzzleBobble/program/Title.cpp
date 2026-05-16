@@ -9,6 +9,7 @@
 
 //	タイトルで使う画像データ変数の外部参照宣言
  int title_image;		//	タイトル背景画像
+ int title_back_image;	//	タイトル背景の背景画像
 
 //---------------------------------------------------------------------------------
 //	初期化
@@ -33,10 +34,13 @@ void TitleUpdate()
 void TitleRender()
 {
 	//	タイトル背景の描画
-	DrawGraph( 0, 0, title_image, TRUE );
-	DrawFormatString(20, 20, GetColor(255, 255, 255), "【タイトル画面】");
-	DrawString( 20, 20, "【タイトル画面】", GetColor( 255, 255, 255 ) );
-	DrawString( 20, 40, "スペースキーでステージへ", GetColor( 255, 255, 255 ) );
+	DrawGraph( 0, 0, title_back_image, TRUE );
+	DrawGraph( 250, 100, title_image, TRUE );
+	//DrawString( 20, 20, "【タイトル画面】", GetColor( 255, 255, 255 ) );
+	///*SetFontSize(100);
+	//DrawString( 70, 150, "PUZZLE BOBBLE", GetColor( 255, 255, 255 ) );
+	//SetFontSize(20);
+	//DrawString( 300, 400, "スペースキーでステージへ", GetColor( 255, 255, 255 ) );
 }
 //---------------------------------------------------------------------------------
 //	終了処理

@@ -9,6 +9,9 @@
 int scene_num;		//	今どこのシーンにいるのかを見る用の変数
 int scene_next;		//	次のシーン番号を入れる用の変数
 
+extern int title_image;
+extern int stage_image;
+extern int title_back_image;
 
 
 //---------------------------------------------------------------------------------
@@ -20,6 +23,11 @@ void GameInit()
 	scene_num = SCENE_TITLE;
 	scene_next = SCENE_TITLE;
 
+	//	タイトル背景の画像を読み込む
+	title_image = LoadGraph("data/title.png");
+	//	ステージ背景の画像を読み込む
+	stage_image = LoadGraph("data/stage.png");
+	title_back_image = LoadGraph("data/titleBack.png");
 	
 	//	タイトル画面の初期化
 	TitleInit();
