@@ -40,7 +40,7 @@ void TitleRender()
 	///*SetFontSize(100);
 	//DrawString( 70, 150, "PUZZLE BOBBLE", GetColor( 255, 255, 255 ) );
 	//SetFontSize(20);
-	//DrawString( 300, 400, "スペースキーでステージへ", GetColor( 255, 255, 255 ) );
+	DrawString( 300, 400, "スペースキーでステージへ", GetColor( 255, 255, 255 ) );
 }
 //---------------------------------------------------------------------------------
 //	終了処理
